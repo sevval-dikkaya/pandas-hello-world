@@ -57,7 +57,7 @@ df['Needs_Check'] = df['Temperature'] > 50
 print("\n\nEquipment to Service:")
 print(df[df['Needs_Check']][['Equipment', 'Temperature', 'Status']])
 
-
+    
 # =====================================
 # 6. EXPORT RESULTS
 # =====================================
